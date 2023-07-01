@@ -4,7 +4,11 @@ const burgerSchema = new mongoose.Schema(
   {
     name: {
       type: String,
-      required: [true, 'Please provide burger name!'],
+      required: [true, 'Please provide meal name!'],
+    },
+    category: {
+      type: String,
+      required: [true, 'Please provide meal category!'],
     },
     prices: {
       type: Array,
@@ -12,7 +16,7 @@ const burgerSchema = new mongoose.Schema(
     },
     description: {
       type: String,
-      required: [true, 'Please provide burger description!'],
+      required: [true, 'Please provide meal description!'],
     },
     bundle: {
       type: String,

@@ -53,7 +53,7 @@ exports.updateBurger = catchAsync(async (req, res, next) => {
   );
 
   if (!burger) {
-    return next(new AppError('No user found with that id!', 404));
+    return next(new AppError('No burger found with that id!', 404));
   }
 
   res.status(200).json({
