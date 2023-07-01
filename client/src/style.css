@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.1s ease-in-out;
+  font-family:
+    Cambria,
+    Cochin,
+    Georgia,
+    Times,
+    'Times New Roman',
+    serif;
+}
+
+:root {
+  --pri-background: #121212;
+  --sec-background: #292929;
+  --text-color: #fff;
+  --hover-color: #303030;
+  --focus-color: #383838;
+  --btn-background: #26b13d;
+  --btn-hover: #3ec554;
+  --btn-color: #000;
+  --header-color: #3cff5c;
+  --forbidden: #0c691c;
+}
