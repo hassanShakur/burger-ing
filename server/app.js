@@ -1,5 +1,6 @@
 const express = require('express');
 const morgan = require('morgan');
+const path = require('path');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 
@@ -32,6 +33,12 @@ app.use(express.json());
 if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'));
 }
+
+// Serve satatic files
+app.use(
+  '/images',
+  express.static(path.join('uploads', 'images'))
+);
 
 // CORS Error Handling by Setting Headers
 app.use((req, res, next) => {

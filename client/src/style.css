@@ -3,24 +3,145 @@
   margin: 0;
   box-sizing: border-box;
   transition: all 0.1s ease-in-out;
-  font-family:
-    Cambria,
-    Cochin,
-    Georgia,
-    Times,
-    'Times New Roman',
-    serif;
 }
 
 :root {
-  --pri-background: #121212;
-  --sec-background: #292929;
-  --text-color: #fff;
-  --hover-color: #303030;
-  --focus-color: #383838;
-  --btn-background: #26b13d;
-  --btn-hover: #3ec554;
-  --btn-color: #000;
-  --header-color: #3cff5c;
-  --forbidden: #0c691c;
+  --pri-background: #f5ebdc;
+  --link-color: #f5ebdc;
+  --link-hover: #ff7a20;
+  --text-color: #502314;
+  --header-color: #502314;
+  --title-color: #d62347;
 }
+
+/* ============= Generals  ============= */
+
+a,
+a:link,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+body {
+  background-color: var(--pri-background);
+  color: var(--text-color);
+  min-height: 100vh;
+}
+
+/* ============= End Generals  ============= */
+
+/* ============= Header & Menu ============= */
+
+header {
+  background-color: var(--header-color);
+  padding: 5px 8px;
+}
+
+.logo {
+  width: 4rem;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.mobile-menu img {
+  width: 25px;
+}
+
+.mobile-menu #close-menu-icon {
+  display: none;
+}
+
+/* ============= End Header & Menu ============= */
+
+/* ============= Main Section ============= */
+
+main {
+  padding: 4rem 20px;
+}
+
+section .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+section h3 {
+  color: var(--title-color);
+  font-weight: 900;
+}
+
+.content .item {
+  width: 100%;
+}
+
+.item img {
+  width: 90%;
+}
+
+.item p {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* ============= End Main Section ============= */
+
+/* ============= Footer ============= */
+
+footer {
+  background-color: var(--header-color);
+  color: var(--pri-background);
+  padding: 2rem;
+  display: grid;
+  gap: 2rem;
+}
+
+footer .footer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer-info .info {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.info h3 {
+  font-size: 22px;
+}
+
+.info h6 {
+  opacity: 0.5;
+  font-size: 16px;
+}
+
+.footer-logo {
+  width: 10rem;
+}
+
+footer .copy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--pri-background);
+  padding: 0.5rem 0;
+}
+
+/* ============= End Footer ============= */
+
+/* ============= Media Qieries ============= */
+
+@media (min-width: 768px) {
+  section .content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/* ============= End Media Qieries ============= */

@@ -8,7 +8,8 @@
       { "large meal": 50 }
     ],
     "description": "Have you tried one of our wraps yet? These wraps are sure to satisfy all your cravings! Come on over for an unforgettable experience or place your orders on Jumia food, Bolt Food or Glovo",
-    "bundle": "* Combo meal comes with large fries and a soda"
+    "bundle": "* Combo meal comes with large fries and a soda",
+    "image": "beef_wrap.png"
   },
   {
     "name": "chicken wrap",
@@ -19,7 +20,8 @@
       { "large meal": 50 }
     ],
     "description": "Have you tried one of our wraps yet? These wraps are sure to satisfy all your cravings! Come on over for an unforgettable experience or place your orders on Jumia food, Bolt Food or Glovo",
-    "bundle": "* Combo meal comes with large fries and a soda"
+    "bundle": "* Combo meal comes with large fries and a soda",
+    "image": "chicken_wrap.png"
   },
   {
     "name": "whooper",
@@ -30,7 +32,8 @@
       { "large meal": 50 }
     ],
     "description": "Our WHOPPER Sandwich is a ¼ lb* of savory flame-grilled beef topped with juicy tomatoes, freshly cut lettuce, creamy mayonnaise, crunchy pickles and sliced white onions on a soft sesame seed bun.",
-    "bundle": "* Combo meal comes with large fries and a soda"
+    "bundle": "* Combo meal comes with large fries and a soda",
+    "image": "whooper.png"
   },
   {
     "name": "whooper jr.",
@@ -41,7 +44,8 @@
       { "large meal": 50 }
     ],
     "description": "Our WHOPPER JR. Sandwich features one savory flame-grilled beef patty topped with juicy tomato, freshly cut lettuce, creamy mayonnaise, crunchy pickles and sliced white onions on a soft sesame seed bun.",
-    "bundle": "* Combo meal comes with large fries and a soda"
+    "bundle": "* Combo meal comes with large fries and a soda",
+    "image": "whooper_jr..png"
   },
   {
     "name": "stakehouse",
@@ -52,7 +56,8 @@
       { "large meal": 50 }
     ],
     "description": "A 100% flame-grilled beef patty topped with veal bacon, cheese, crispy onion, Western BBQ sauce, lettuce and tomato. Served in a corn dusted bun.",
-    "bundle": "* Combo meal comes with large fries and a soda"
+    "bundle": "* Combo meal comes with large fries and a soda",
+    "image": "stakehouse.png"
   },
   {
     "name": "big king XL",
@@ -63,7 +68,8 @@
       { "large meal": 50 }
     ],
     "description": "The Big King XL has two grilled burgers with triple cheese on them, sliced onions, lettuce, pickles and BIG King sauce.",
-    "bundle": "* Combo meal comes with large fries and a soda"
+    "bundle": "* Combo meal comes with large fries and a soda",
+    "image": "big_king_XL.png"
   },
   {
     "name": "extra long chilli cheese",
@@ -74,7 +80,8 @@
       { "large meal": 50 }
     ],
     "description": "Has a layer of three freshly flame-grilled beef patties with soft melted cheddar cheese, fiery chilli cheese sauce and hot jalapeños. In a nutshell: full of taste from start to finish.",
-    "bundle": "* Combo meal comes with large fries and a soda"
+    "bundle": "* Combo meal comes with large fries and a soda",
+    "image": "extra_long_chilli_cheese.png"
   },
   {
     "name": "double chilli cheese",
@@ -85,7 +92,8 @@
       { "large meal": 50 }
     ],
     "description": "Two juicy patties topped off with Chilli Cheese Sauce, jalapeños and spicy mayo. Spicy never tasted this good.",
-    "bundle": "* Combo meal comes with large fries and a soda"
+    "bundle": "* Combo meal comes with large fries and a soda",
+    "image": "double_chilli_cheese.png"
   },
   {
     "name": "double whooper",
@@ -96,7 +104,8 @@
       { "large meal": 50 }
     ],
     "description": "The Double Whopper has two flame-grilled beef patties topped with juicy tomatoes, freshly-cut lettuce, creamy mayonnaise, crunchy pickles, and sliced white onions on a soft sesame seed bun.",
-    "bundle": "* Combo meal comes with large fries and a soda"
+    "bundle": "* Combo meal comes with large fries and a soda",
+    "image": "double_whooper.png"
   },
   {
     "name": "double cheeseburger",
@@ -107,7 +116,8 @@
       { "large meal": 50 }
     ],
     "description": "Two signature flame-grilled patties topped with melted cheese, crinkle cut pickles, yellow mustard and ketchup on a toasted sesame seeds bun.",
-    "bundle": "* Combo meal comes with large fries and a soda"
+    "bundle": "* Combo meal comes with large fries and a soda",
+    "image": "double_cheeseburger.png"
   },
   {
     "name": "big king",
@@ -118,7 +128,8 @@
       { "large meal": 50 }
     ],
     "description": "The BIG KING comes with two freshly flame-grilled 100% pure beef patties, cheese, onions, pickles and the unique BIG KING™ sauce, it just tastes amazing. At four inches in diameter, it is also very substantial.",
-    "bundle": "* Combo meal comes with large fries and a soda"
+    "bundle": "* Combo meal comes with large fries and a soda",
+    "image": "big_king.png"
   },
   {
     "name": "deluxe",
@@ -129,7 +140,8 @@
       { "large meal": 50 }
     ],
     "description": "A 100% flame-grilled beef patty topped with cheese, crispy onion, Western BBQ sauce, lettuce and tomato. Served in a corn dusted bun.",
-    "bundle": "* Combo meal comes with large fries and a soda"
+    "bundle": "* Combo meal comes with large fries and a soda",
+    "image": "deluxe.png"
   },
   {
     "name": "double cheese bacon",
@@ -140,7 +152,8 @@
       { "large meal": 50 }
     ],
     "description": "Double Cheeseburger has two signature flame-grilled beef patties topped with melted American cheese, bacon, crinkle cut pickles, yellow mustard, and ketchup on a toasted sesame seed bun.",
-    "bundle": "* Combo meal comes with large fries and a soda"
+    "bundle": "* Combo meal comes with large fries and a soda",
+    "image": "double_cheese_bacon.png"
   },
   {
     "name": "tendercrisp chicken",
@@ -151,7 +164,8 @@
       { "large meal": 50 }
     ],
     "description": "Our Chicken TENDERCRISP Sandwich is made with a premium chicken breast fillet, generously breaded with homemade seasoning and carefully layered with fresh lettuce, ripe juicy tomatoes, and creamy mayonnaise between a corn dusted bun.",
-    "bundle": "* Combo meal comes with large fries and a soda"
+    "bundle": "* Combo meal comes with large fries and a soda",
+    "image": "tendercrisp_chicken.png"
   },
   {
     "name": "long chicken",
@@ -162,7 +176,8 @@
       { "large meal": 50 }
     ],
     "description": "There are some things you can't get enough of - good taste, for example. This is why we only use our extra-long sesame seed buns for your Original Chicken Sandwich, filled with soft chicken breast in a seasoned coating. Mmmm... so much flavour means no one will go short.",
-    "bundle": "* Combo meal comes with large fries and a soda"
+    "bundle": "* Combo meal comes with large fries and a soda",
+    "image": "long_chicken.png"
   },
   {
     "name": "crispy chicken",
@@ -173,7 +188,8 @@
       { "large meal": 50 }
     ],
     "description": "Crispy on the outside, soft on the inside. The crispy chicken has everything you would expect from an excellent chicken burger: the finest chicken in a seasoned crispy coating, garnished with crunchy lettuce and freshly sliced tomatoes. An unrivalled masterpiece.",
-    "bundle": "* Combo meal comes with large fries and a soda"
+    "bundle": "* Combo meal comes with large fries and a soda",
+    "image": "crispy_chicken.png"
   },
   {
     "name": "long chilli cheese chicken",
@@ -184,7 +200,8 @@
       { "large meal": 50 }
     ],
     "description": "Add some spice to an Original Chicken and choose the Chilli Cheese Chicken, smothered in chilli cheese sauce and a generous helping of fiery jalapeños.",
-    "bundle": "* Combo meal comes with large fries and a soda"
+    "bundle": "* Combo meal comes with large fries and a soda",
+    "image": "long_chilli_cheese_chicken.png"
   },
   {
     "name": "junior hamburger",
@@ -194,7 +211,8 @@
       { "bundle contains": "Hamburger, Drink, Small Fries, 1 Toy" }
     ],
     "description": "Our signature flame-grilled beef patty burger served with a small side of piping hot, thick cut fries and a small fountain drink of your choice to make it a meal. And get this, it comes with one free *toy!",
-    "bundle": "*Available toys"
+    "bundle": "*Available toys",
+    "image": "junior_hamburger.png"
   },
   {
     "name": "junior cheeseburger",
@@ -204,7 +222,8 @@
       { "bundle contains": "Hamburger, Drink, Small Fries, 1 Toy" }
     ],
     "description": "100% beef patty topped with a slice of melted cheese, pickles, ketchup and mustard all wrapped up in a sesame seed bun and served with a small side of crunchy crisp French Fries and a small fountain drink of your choice, right next to one really cool *toy!",
-    "bundle": "*Available toys"
+    "bundle": "*Available toys",
+    "image": "junior_cheeseburger.png"
   },
   {
     "name": "junior 4 chicken nuggets",
@@ -216,7 +235,8 @@
       }
     ],
     "description": "4 tender, juicy, crispy pieces of nuggets with a BBQ dip, served with a small side of piping hot fries, a small drink of your choice and one *toy worthy of a KING!",
-    "bundle": "*Available toys"
+    "bundle": "*Available toys",
+    "image": "junior_4_chicken_nuggets.png"
   },
   {
     "name": "king wings",
@@ -227,7 +247,8 @@
       { "12 pcs": 1080 }
     ],
     "description": "Our perfectly spiced chicken wings are great for sharing. Available in a 6-piece, 9-piece or 12-piece pack - for the hungry or super hungry chicken fans.",
-    "bundle": ""
+    "bundle": "",
+    "image": "king_wings.png"
   },
   {
     "name": "king wings meal",
@@ -238,14 +259,16 @@
       { "12 pcs": 1290 }
     ],
     "description": "Our perfectly spiced chicken wings are great for sharing. Available in a 6-piece, 9-piece or 12-piece pack - for the hungry or super hungry chicken fans.",
-    "bundle": ""
+    "bundle": "",
+    "image": "king_wings_meal.png"
   },
   {
     "name": "chicken nuggets",
     "category": "snack",
     "prices": [{ "6 pcs": 500 }, { "9 pcs": 660 }, { "12 pcs": 840 }],
     "description": "Made with white meat, our bite-sized Chicken Nuggets are tender and juicy on the inside and crispy on the outside. Coated in a crispy tempura, they are perfect for dipping in any of our delicious sauces.",
-    "bundle": ""
+    "bundle": "",
+    "image": "chicken_nuggets.png"
   },
   {
     "name": "chicken nuggets meal",
@@ -256,84 +279,96 @@
       { "12 pcs": 1070 }
     ],
     "description": "Made with white meat, our bite-sized Chicken Nuggets are tender and juicy on the inside and crispy on the outside. Coated in a crispy tempura, they are perfect for dipping in any of our delicious sauces.",
-    "bundle": ""
+    "bundle": "",
+    "image": "chicken_nuggets_meal.png"
   },
   {
     "name": "chilli cheese bites",
     "category": "snack",
     "prices": [{ "6 pcs": 290 }, { "9 pcs": 390 }, { "12 pcs": 510 }],
     "description": "Crispy coat with smooth and spicy cheese inside. Unique taste of chilli with every bite. You will love our Chilli Cheese Bites!",
-    "bundle": ""
+    "bundle": "",
+    "image": "chilli_cheese_bites.png"
   },
   {
     "name": "fries",
     "category": "snack",
     "prices": [{ "6 pcs": 210 }, { "9 pcs": 250 }, { "12 pcs": 320 }],
     "description": "More delicious than ever, our signature piping hot, thick cut Salted French Fries are golden on the outside and fluffy on the inside.",
-    "bundle": ""
+    "bundle": "",
+    "image": "fries.png"
   },
   {
     "name": "king onion rings",
     "category": "snack",
     "prices": [{ "6 pcs": 240 }, { "9 pcs": 300 }],
     "description": "Served hot and crispy, our golden Onion Rings are the perfect treat for plunging into one of our bold or classic sauces.",
-    "bundle": ""
+    "bundle": "",
+    "image": "king_onion_rings.png"
   },
   {
     "name": "crunchy chicken salad",
     "category": "salad",
     "prices": [{ "price": 750 }],
     "description": "Something light on the tummy but super packed with great nutrients. Come enjoy a bowl of Crunchy Chicken Salad with special sauce!",
-    "bundle": ""
+    "bundle": "",
+    "image": "crunchy_chicken_salad.png"
   },
   {
     "name": "grilled chicken salad",
     "category": "salad",
     "prices": [{ "price": 750 }],
     "description": "Something light on the tummy but super packed with great nutrients. Come enjoy a bowl of Grilled Chicken Salad with special sauce!",
-    "bundle": ""
+    "bundle": "",
+    "image": "grilled_chicken_salad.png"
   },
   {
     "name": "delight salad",
     "category": "salad",
     "prices": [{ "price": 550 }],
     "description": "Something light on the tummy but super packed with great nutrients. Come enjoy a bowl of Delight Salad with special sauce!",
-    "bundle": ""
+    "bundle": "",
+    "image": "delight_salad.png"
   },
   {
     "name": "king deal",
     "category": "king",
     "prices": [{ "price": 240 }],
     "description": "none",
-    "bundle": ""
+    "bundle": "",
+    "image": "king_deal.png"
   },
   {
     "name": "hamburger",
     "category": "king",
     "prices": [{ "price": 240 }],
     "description": "Try our Hamburger, a signature flame-grilled beef patty topped with a simple layer of crinkle cut pickles, yellow mustard, and ketchup on a toasted sesame seed bun.",
-    "bundle": ""
+    "bundle": "",
+    "image": "hamburger.png"
   },
   {
     "name": "cheeseburger",
     "category": "king",
     "prices": [{ "price": 300 }],
     "description": "Made from 100% beef topped with a slice of melted cheese, pickles, ketchup and mustard all wrapped up in a sesame seed bun. If it aint broke, don't fix it.",
-    "bundle": ""
+    "bundle": "",
+    "image": "cheeseburger.png"
   },
   {
     "name": "hing fusion",
     "category": "desert",
     "prices": [{ "price": 400 }, { "flavors": "Oreo, KitKat" }],
     "description": "The BK Fusion with Oreo® combines our delicious, smooth vanilla ice cream with crunchy bits of Oreo® cookies. The BK Fusion with KitKat® combines our delicious, smooth vanilla ice cream with crunchy bits of KitKat® chocolate.",
-    "bundle": ""
+    "bundle": "",
+    "image": "hing_fusion.png"
   },
   {
     "name": "chocolate donut",
     "category": "desert",
     "prices": [{ "price": 200 }],
     "description": "Our soft and tender Chocolate Donut treats your taste buds to a roller coaster of creamy and chocolatey fun, yum!",
-    "bundle": ""
+    "bundle": "",
+    "image": "chocolate_donut.png"
   },
   {
     "name": "milkshake",
@@ -345,21 +380,24 @@
       { "flavors": "Chocolate, Vanilla, Strawberry" }
     ],
     "description": "There's only one problem, which flavour do you choose? Vanilla? Chocolate? Strawberry? This could take some time.",
-    "bundle": ""
+    "bundle": "",
+    "image": "milkshake.png"
   },
   {
     "name": "cone",
     "category": "desert",
     "prices": [{ "price": 110 }],
     "description": "We didn’t invent the cone, but with one taste of our cool, creamy, and velvety vanilla Cone, you’ll think we perfected it.",
-    "bundle": ""
+    "bundle": "",
+    "image": "cone.png"
   },
   {
     "name": "sundae",
     "category": "desert",
     "prices": [{ "price": 260 }, { "flavors": "Caramel, Chocolate" }],
     "description": "Cool and creamy with a flavored swirl, our made-to-order Sundae are complemented by our velvety vanilla soft serve.",
-    "bundle": ""
+    "bundle": "",
+    "image": "sundae.png"
   },
   {
     "name": "sodas",
@@ -369,13 +407,15 @@
       { "flavors": "Coke, Sprite, Fanta Orange/Passion" }
     ],
     "description": "Quench your thirst with a soft drink.",
-    "bundle": ""
+    "bundle": "",
+    "image": "sodas.png"
   },
   {
     "name": "water",
     "category": "desert",
     "prices": [{ "price": 110 }],
     "description": "Keep refreshed with every sip.",
-    "bundle": ""
+    "bundle": "",
+    "image": "water.png"
   }
 ]
