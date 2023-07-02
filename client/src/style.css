@@ -37,6 +37,7 @@ body {
   background-color: var(--pri-background);
   color: var(--text-color);
   min-height: 100vh;
+  position: relative;
 }
 
 /* ============= End Generals  ============= */
@@ -200,6 +201,82 @@ footer .copy {
 
 /* ============= End Footer ============= */
 
+/* ============= Modal ============= */
+
+.backdrop {
+  z-index: 9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--pri-background);
+}
+
+.popup {
+  width: 100%;
+  height: 100%;
+  margin-top: 3rem;
+  max-width: 750px;
+  padding: 1rem 5vw;
+  font-size: 16px;
+  overflow-y: scroll;
+  background-color: var(--pri-background);
+}
+
+.popup-img,
+.popup-img img {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.popup .meal {
+  width: 80%;
+  margin: 5rem auto;
+  text-align: center;
+  display: grid;
+  gap: 4rem;
+}
+
+.meal h3 {
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.meal .prices {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.prices .price {
+  width: fit-content;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.price .amount {
+  text-align: right;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.price .value {
+  text-align: left;
+}
+
+.meal .description {
+  text-align: left;
+  line-height: 2;
+}
+
+.description .combo {
+  margin-top: 1rem;
+}
+
+/* ============= End Modal ============= */
+
 /* ============= Media Qieries ============= */
 
 @media (min-width: 768px) {
@@ -258,6 +335,16 @@ footer .copy {
 
   .info h6 {
     font-size: 18px;
+  }
+
+  .backdrop {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .popup {
+    margin: 15vh auto;
+    height: 65vh;
+    border-radius: 10px;
   }
 }
 

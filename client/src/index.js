@@ -8,3 +8,5 @@ window.addEventListener('DOMContentLoaded', async () => {
   const burgers = await api.getMeals();
   view.renderMeals(burgers);
 });
+
+//  (font-family: "Flame-Sans" style:normal weight:400 stretch:100 src index:0): status=2152398878 source: https://burgerking.ke/assets/fonts/FlameSans-Regular.woff2
