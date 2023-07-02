@@ -24,6 +24,11 @@ a:visited {
   color: inherit;
 }
 
+a:hover {
+  color: var(--link-hover);
+  transition: 0.2s ease-in;
+}
+
 ul li {
   list-style-type: none;
 }
@@ -44,12 +49,17 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
+  position: fixed;
+  width: 100vw;
 }
 
 .logo {
   height: 4rem;
   z-index: 5;
+}
+
+img:hover {
+  cursor: pointer;
 }
 
 .logo img {
@@ -84,8 +94,7 @@ nav ul {
 }
 
 .hide-menu {
-  z-index: -1;
-  opacity: 0;
+  display: none;
 }
 
 .mobile-menu #close-menu-icon {
@@ -97,21 +106,35 @@ nav ul {
 /* ============= Main Section ============= */
 
 main {
-  padding: 4rem 20px;
+  padding: 0 20px;
+  padding-top: 6rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+main section {
+  padding: 2rem 0;
 }
 
 section .content {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: flex-end;
+  gap: 1rem;
+  row-gap: 3rem;
 }
 
 section h3 {
   color: var(--title-color);
   font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
 }
 
 .content .item {
   width: 100%;
+  display: grid;
+  gap: 2rem;
 }
 
 .item img {
@@ -122,6 +145,8 @@ section h3 {
   font-size: 18px;
   font-weight: 600;
   text-align: center;
+  text-transform: capitalize;
+  margin-left: -2rem;
 }
 
 /* ============= End Main Section ============= */
@@ -178,8 +203,61 @@ footer .copy {
 /* ============= Media Qieries ============= */
 
 @media (min-width: 768px) {
+  header {
+    padding: 5px 15vw;
+    justify-content: flex-start;
+    gap: 2rem;
+  }
+
+  nav {
+    font-size: 20px;
+    justify-content: start;
+    position: unset;
+    height: fit-content;
+    width: fit-content;
+  }
+
+  nav ul {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin-right: auto;
+    font-weight: 800;
+  }
+
+  .hide-menu {
+    display: unset;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
   section .content {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  section img:hover {
+    transform: scale(1.05);
+    transition: all 0.4s linear;
+  }
+
+  footer {
+    padding: 2rem 15vw;
+  }
+
+  footer .footer-info {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .info h3 {
+    font-size: 24px;
+  }
+
+  .info h6 {
+    font-size: 18px;
   }
 }
 

@@ -28,17 +28,13 @@ app.use(
 
 app.use(express.json());
 
-
 // Development logging
 if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'));
 }
 
 // Serve satatic files
-app.use(
-  '/images',
-  express.static(path.join('uploads', 'images'))
-);
+app.use('/images', express.static(path.join('uploads', 'images')));
 
 // CORS Error Handling by Setting Headers
 app.use((req, res, next) => {

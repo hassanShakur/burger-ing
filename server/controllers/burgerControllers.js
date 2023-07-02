@@ -15,13 +15,31 @@ exports.createBurger = catchAsync(async (req, res, next) => {
 });
 
 exports.getAllBurgers = catchAsync(async (req, res, next) => {
-  const burgers = await Burger.find();
+  const wraps = await Burger.find({ category: 'wraps' });
+  const beef = await Burger.find({ category: 'beef' });
+  const chicken = await Burger.find({ category: 'chicken' });
+  const kids = await Burger.find({ category: 'kids' });
+  const snack = await Burger.find({ category: 'snack' });
+  const salad = await Burger.find({ category: 'salad' });
+  const king = await Burger.find({ category: 'king' });
+  const desert = await Burger.find({ category: 'desert' });
+
+  const burgers = [
+    wraps,
+    beef,
+    chicken,
+    kids,
+    snack,
+    salad,
+    king,
+    desert,
+  ];
 
   res.status(200).json({
     status: 'Success',
     results: burgers.length,
     data: {
-      burgers,
+      burgers
     },
   });
 });

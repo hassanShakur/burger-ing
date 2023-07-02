@@ -5,7 +5,6 @@ const mongoose = require('mongoose');
 
 const Burger = require(`${__dirname}/../models/burgerModel`);
 
-
 dotenv.config({ path: `${__dirname}/../config.env` });
 
 // const DB = process.env.DATABASE.replace(
@@ -31,7 +30,6 @@ mongoose.connect(DB).then((con) => {
 const burgers = JSON.parse(
   fs.readFileSync(`${__dirname}/burgers.json`, 'utf8')
 );
-
 
 const importData = async () => {
   try {

@@ -24,7 +24,7 @@
     "image": "chicken_wrap.png"
   },
   {
-    "name": "whooper",
+    "name": "whopper",
     "category": "beef",
     "prices": [
       { "combo meal": 940 },
@@ -33,10 +33,10 @@
     ],
     "description": "Our WHOPPER Sandwich is a ¼ lb* of savory flame-grilled beef topped with juicy tomatoes, freshly cut lettuce, creamy mayonnaise, crunchy pickles and sliced white onions on a soft sesame seed bun.",
     "bundle": "* Combo meal comes with large fries and a soda",
-    "image": "whooper.png"
+    "image": "whopper.png"
   },
   {
-    "name": "whooper jr.",
+    "name": "whopper jr.",
     "category": "beef",
     "prices": [
       { "combo meal": 720 },
@@ -45,10 +45,10 @@
     ],
     "description": "Our WHOPPER JR. Sandwich features one savory flame-grilled beef patty topped with juicy tomato, freshly cut lettuce, creamy mayonnaise, crunchy pickles and sliced white onions on a soft sesame seed bun.",
     "bundle": "* Combo meal comes with large fries and a soda",
-    "image": "whooper_jr..png"
+    "image": "whopper_jr.png"
   },
   {
-    "name": "stakehouse",
+    "name": "steakhouse",
     "category": "beef",
     "prices": [
       { "combo meal": 1170 },
@@ -57,7 +57,7 @@
     ],
     "description": "A 100% flame-grilled beef patty topped with veal bacon, cheese, crispy onion, Western BBQ sauce, lettuce and tomato. Served in a corn dusted bun.",
     "bundle": "* Combo meal comes with large fries and a soda",
-    "image": "stakehouse.png"
+    "image": "steakhouse.png"
   },
   {
     "name": "big king XL",
@@ -96,7 +96,7 @@
     "image": "double_chilli_cheese.png"
   },
   {
-    "name": "double whooper",
+    "name": "double whopper",
     "category": "beef",
     "prices": [
       { "combo meal": 1110 },
@@ -105,7 +105,7 @@
     ],
     "description": "The Double Whopper has two flame-grilled beef patties topped with juicy tomatoes, freshly-cut lettuce, creamy mayonnaise, crunchy pickles, and sliced white onions on a soft sesame seed bun.",
     "bundle": "* Combo meal comes with large fries and a soda",
-    "image": "double_whooper.png"
+    "image": "double_whopper.png"
   },
   {
     "name": "double cheeseburger",
@@ -355,12 +355,12 @@
     "image": "cheeseburger.png"
   },
   {
-    "name": "hing fusion",
+    "name": "king fusion",
     "category": "desert",
     "prices": [{ "price": 400 }, { "flavors": "Oreo, KitKat" }],
     "description": "The BK Fusion with Oreo® combines our delicious, smooth vanilla ice cream with crunchy bits of Oreo® cookies. The BK Fusion with KitKat® combines our delicious, smooth vanilla ice cream with crunchy bits of KitKat® chocolate.",
     "bundle": "",
-    "image": "hing_fusion.png"
+    "image": "king_fusion.png"
   },
   {
     "name": "chocolate donut",
@@ -371,7 +371,7 @@
     "image": "chocolate_donut.png"
   },
   {
-    "name": "milkshake",
+    "name": "milkshakes",
     "category": "desert",
     "prices": [
       { "small": 230 },
@@ -381,7 +381,7 @@
     ],
     "description": "There's only one problem, which flavour do you choose? Vanilla? Chocolate? Strawberry? This could take some time.",
     "bundle": "",
-    "image": "milkshake.png"
+    "image": "milkshakes.png"
   },
   {
     "name": "cone",
@@ -392,12 +392,12 @@
     "image": "cone.png"
   },
   {
-    "name": "sundae",
+    "name": "sundaes",
     "category": "desert",
     "prices": [{ "price": 260 }, { "flavors": "Caramel, Chocolate" }],
     "description": "Cool and creamy with a flavored swirl, our made-to-order Sundae are complemented by our velvety vanilla soft serve.",
     "bundle": "",
-    "image": "sundae.png"
+    "image": "sundaes.png"
   },
   {
     "name": "sodas",
