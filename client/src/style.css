@@ -40,19 +40,52 @@ body {
 
 header {
   background-color: var(--header-color);
-  padding: 5px 8px;
+  padding: 5px 1.5rem 5px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
 }
 
 .logo {
-  width: 4rem;
+  height: 4rem;
+  z-index: 5;
 }
 
 .logo img {
-  width: 100%;
+  height: 100%;
+}
+
+.mobile-menu {
+  z-index: 5;
 }
 
 .mobile-menu img {
   width: 25px;
+}
+
+nav {
+  background-color: var(--header-color);
+  font-size: 2rem;
+  color: var(--pri-background);
+  display: grid;
+  place-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 2;
+}
+
+nav ul {
+  display: grid;
+  gap: 1rem;
+}
+
+.hide-menu {
+  z-index: -1;
+  opacity: 0;
 }
 
 .mobile-menu #close-menu-icon {
@@ -125,6 +158,11 @@ footer .footer-info {
 
 .footer-logo {
   width: 10rem;
+  z-index: inherit;
+}
+
+.footer-info img {
+  width: 100%;
 }
 
 footer .copy {
@@ -144,4 +182,5 @@ footer .copy {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
 /* ============= End Media Qieries ============= */
