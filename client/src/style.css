@@ -211,6 +211,11 @@ footer .copy {
   width: 100vw;
   height: 100vh;
   background-color: var(--pri-background);
+  display: none;
+}
+
+.show-popup {
+  display: unset;
 }
 
 .popup {
@@ -273,6 +278,24 @@ footer .copy {
 
 .description .combo {
   margin-top: 1rem;
+}
+
+.popup .back {
+  width: 40px;
+  height: 40px;
+  background-color: var(--title-color);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin: 1rem 0 2rem 0;
+}
+
+.popup .back img {
+  width: 20px;
+}
+
+.popup .back #back-cross {
+  display: none;
 }
 
 /* ============= End Modal ============= */
@@ -345,6 +368,14 @@ footer .copy {
     margin: 15vh auto;
     height: 65vh;
     border-radius: 10px;
+  }
+
+  .popup .back #back-cross {
+    display: unset;
+  }
+
+  .popup .back #back-arrow {
+    display: none;
   }
 }
 
