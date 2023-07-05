@@ -23,7 +23,8 @@ mealsContainer.addEventListener('click', (e) => {
 
 popupContainer.addEventListener('click', (e) => {
   const isClosePopupIcon = e.target.closest('.back');
-  if (!isClosePopupIcon) return;
+  const isBackDrop = e.target.classList.contains('.backdrop');
+  if (!isClosePopupIcon || !isBackDrop) return;
 
   view.hidePopup();
 });
