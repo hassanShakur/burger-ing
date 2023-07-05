@@ -2,7 +2,6 @@
   "name": "burger-king",
   "version": "1.0.0",
   "description": "The burger king website",
-  "proxy": "https://burger-ing.netlify.app/",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
