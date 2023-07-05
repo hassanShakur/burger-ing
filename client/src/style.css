@@ -127,7 +127,7 @@ section .content {
   align-items: flex-end;
   gap: 1rem;
   row-gap: 3rem;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 section h3 {
@@ -142,18 +142,19 @@ section h3 {
   width: 100%;
   display: grid;
   gap: 2rem;
+  column-gap: 3rem;
 }
 
 .item img {
-  width: 90%;
+  width: 95%;
 }
 
 .item p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 700;
   text-align: center;
   text-transform: capitalize;
-  margin-left: -2rem;
+  padding: 0 15px;
 }
 
 .spinner {

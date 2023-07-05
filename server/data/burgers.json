@@ -69,7 +69,7 @@
     ],
     "description": "The Big King XL has two grilled burgers with triple cheese on them, sliced onions, lettuce, pickles and BIG King sauce.",
     "bundle": "* Combo meal comes with large fries and a soda",
-    "image": "big_king_XL.png"
+    "image": "big_king_xl.png"
   },
   {
     "name": "extra long chilli cheese",
@@ -334,7 +334,7 @@
     "name": "king deal",
     "category": "king",
     "prices": [{ "price": 240 }],
-    "description": "none",
+    "description": "Try our Hamburger, a signature flame-grilled beef patty topped with a simple layer of crinkle cut pickles, yellow mustard, and ketchup on a toasted sesame seed bun.",
     "bundle": "",
     "image": "king_deal.png"
   },
